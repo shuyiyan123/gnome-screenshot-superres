@@ -1,0 +1,14 @@
+[Unit]
+Description=Automatically enhance new GNOME screenshots and copy them to the clipboard
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/machine/Documents/ChatGPT/gnome icon
+ExecStart="/home/machine/Documents/ChatGPT/gnome icon/screenshot-autoprocess.sh"
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target

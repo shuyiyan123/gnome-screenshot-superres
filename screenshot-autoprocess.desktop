@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Screenshot AI Autoprocess
+Comment=Automatically enhance new screenshots and copy them to the clipboard
+Exec="/home/machine/Documents/ChatGPT/gnome icon/screenshot-autoprocess.sh"
+Terminal=false
+X-GNOME-Autostart-enabled=true
