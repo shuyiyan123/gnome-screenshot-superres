@@ -48,7 +48,7 @@ Shift + Print
 
 等待“AI 增强完成”通知，然后直接粘贴。
 
-## 日志
+## 系统日志
 
 ```bash
 cat /tmp/screenshot-autoprocess.log
